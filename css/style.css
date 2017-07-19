@@ -51,6 +51,10 @@ input[type="email"], input[type="text"]
     box-sizing: border-box;
     height: 42px; 
     margin-bottom: 10px;
-    padding: 0 20px; 
 }
-
+.front_image{
+    width: 450px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10%;
+}
