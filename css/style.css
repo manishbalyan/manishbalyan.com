@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 @import url("reset.css");
 @import url("responsive.css");
 @import url("themify-icons.css");
@@ -8,9 +7,6 @@
 
 CONTENTS :
         1. General
-        2. Content Section
-        3. Image Section
-        4. Modal Section
 
 =============================================================================================*/
 
@@ -20,14 +16,16 @@ CONTENTS :
                                             1. General 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ***********************************************************************************************/
-#main-container-scroller{
+
+#main-container-scroller {
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
 }
-#loader{
+
+#loader {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -36,23 +34,26 @@ CONTENTS :
     z-index: 1000;
     background-color: #5eb6de;
 }
-.no-space{
+
+.no-space {
     margin: auto 0;
-    padding-left: 0 ;
+    padding-left: 0;
     padding-right: 0;
 }
-#main-container{
+
+#main-container {
     min-height: 98.5vh
 }
-input[type="email"], input[type="text"] 
-{
+
+input[type="email"], input[type="text"] {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    height: 42px; 
+    height: 42px;
     margin-bottom: 10px;
 }
-.front_image{
+
+.front_image {
     width: 450px;
     display: block;
     margin: 0 auto;
