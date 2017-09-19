@@ -7,6 +7,8 @@
 
 CONTENTS :
         1. General
+        2. Header
+        3. Content
 
 =============================================================================================*/
 
@@ -17,12 +19,18 @@ CONTENTS :
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 ***********************************************************************************************/
 
-#main-container-scroller {
+body {
+    background-color: #fff;
+}
+
+#main-container {
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
+    min-height: 100vh;
+    overflow-y:scroll;
 }
 
 #loader {
@@ -41,10 +49,6 @@ CONTENTS :
     padding-right: 0;
 }
 
-#main-container {
-    min-height: 98.5vh
-}
-
 input[type="email"], input[type="text"] {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -58,4 +62,162 @@ input[type="email"], input[type="text"] {
     display: block;
     margin: 0 auto;
     border-radius: 10%;
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            1. Header
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#header {
+    margin-top: 40px;
+    height: 145px;
+}
+
+#header .brand-name {
+    line-height: 1em;
+    text-align: center;
+    display: inline-block;
+    pointer-events: auto;
+    width: 100%;
+}
+
+#header .brand-name .brand-name-text {
+    color: #000;
+    font-family: "Lato";
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#header .brand-logo {
+    margin-top: 20px;
+}
+
+#header .brand-logo .brand-logo-image {
+    width: 72px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 72px;
+}
+
+#header .brand-logo .line_break {
+    margin-top: 50px;
+}
+
+#header .social-link {
+    line-height: 1em;
+    text-align: center;
+    display: inline-block;
+    pointer-events: auto;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#header .social-link a {
+    color: #b37c05;
+    word-wrap: break-word;
+    text-decoration: none;
+    transition: color 100ms ease-in-out, border-color 100ms ease-in-out;
+    background: transparent;
+    cursor: pointer;
+}
+
+#header .social-link a:hover {
+    color: #5c5c5c
+}
+
+
+/**********************************************************************************************
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                            1. Header
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+***********************************************************************************************/
+
+#content {
+    margin-top: 100px;
+    color: #5c5c5c
+}
+
+#content .content-container {
+    box-sizing: border-box;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#content .heading {
+    margin-bottom: 20px;
+}
+
+#content .heading .heading-text {
+    font-size: 23px;
+    font-family: "Playfair Display";
+    line-height: 1.8em;
+    text-transform: none;
+    text-decoration: none;
+    letter-spacing: 0em;
+    font-weight: 400;
+    font-style: normal;
+    color: #000;
+}
+
+#content .name {
+    /* margin-top: 30px; */
+    margin-bottom: 30px;
+}
+
+#content .name .name-text {
+    word-wrap: break-word;
+    margin-bottom: 1.5em;
+    font-family: "Playfair Display";
+    font-size: 17px;
+    line-height: 1.8em;
+    letter-spacing: .01em;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#content .name .name-link {
+    color: #b37c05;
+    word-wrap: break-word;
+    text-decoration: none;
+    transition: color 100ms ease-in-out, border-color 100ms ease-in-out;
+    background: transparent;
+    cursor: pointer
+}
+
+#content .name .name-link:hover {
+    color: #5c5c5c
+}
+
+#content .info .info-text {
+    word-wrap: break-word;
+    margin-bottom: 1.5em;
+    font-family: "Playfair Display";
+    font-size: 17px;
+    line-height: 1.8em;
+    letter-spacing: .01em;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#content .info .links {
+    color: #b37c05;
+    word-wrap: break-word;
+    text-decoration: none;
+    transition: color 100ms ease-in-out, border-color 100ms ease-in-out;
+    background: transparent;
+    cursor: pointer
+}
+
+#content .info .links:hover {
+    color: #5c5c5c
 }
