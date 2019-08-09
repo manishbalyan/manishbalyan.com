@@ -4,3 +4,6 @@
 .idea/tasks.xml
 .idea/*.iml
 .vscode/
+.firebaserc
+.firebase.json
+.firebase
