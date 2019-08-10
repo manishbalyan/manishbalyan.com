@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Manish Kumar Balyan</title>
-    <meta name="description" content="Software Development Engineer having experience of working as Frontend Developer, specialized in Javascript, React.js, Angular, Redux,
-    Html5, CSS3, Bootstrap, es6, Responsive Design" >
-    <link rel="manifest" href="/manifest.json">
+    <meta
+      name="description"
+      content="Software Development Engineer having experience of working as Frontend Developer, specialized in Javascript, React.js, Angular, Redux,
+    Html5, CSS3, Bootstrap, es6, Responsive Design"
+    />
+    <link rel="manifest" href="/manifest.json" />
     <!-- Favicons -->
-    <link rel="apple-touch-icon" href="apple-touch-icon.png" >
-    <link rel="icon" href="images/manish.jpg" type="image/jpg" >
-    <link rel="shortcut icon" href="images/manish.jpg" type="image/jpg" >
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <link rel="icon" href="images/manish.jpg" type="image/jpg" />
+    <link rel="shortcut icon" href="images/manish.jpg" type="image/jpg" />
     <!-- Fonts -->
     <link
       rel="stylesheet"
       type="text/css"
       href="https://fonts.googleapis.com/css?family=Lato:400,400italic,700normal,700italic"
-    >
+    />
     <!-- Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
-    <link rel="stylesheet" type="text/css" href="css/style.css" >
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -31,13 +37,78 @@
     <!--  Loader -->
     <div id="loader"></div>
     <!--  Loader End -->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title cus-modal-title">Connect with me</h5>
+            <button
+              type="button"
+              class="close cus-close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form
+              method="POST"
+              action="https://formspree.io/balyan05.manish@gmail.com"
+            >
+              <div class="form-group">
+                <input
+                  name="name"
+                  type="text"
+                  class="form-control cus-input"
+                  id="name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  name="email"
+                  type="email"
+                  class="form-control cus-input"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="message"
+                  rows="5"
+                  class="form-control cus-input"
+                  id="message-text"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="modal-footer">
+                <button type="submit" class="btn sub-button">
+                  Submit
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Modal End-->
     <!-- Main Container -->
     <section id="main-container">
       <div class="container">
         <header id="header">
           <div class="col-md-12">
             <div class="brand-name">
-              <a style="text-decoration:none" href="index.html">
+              <a style="text-decoration:none" href="/">
                 <h1 class="brand-name-text">Manish</h1>
               </a>
             </div>
@@ -62,19 +133,31 @@
                 >LinkedIn</a
               >
               |
-              <a href="https://github.com/manishbalyan" target="_blank" rel="noreferrer"
+              <a
+                href="https://github.com/manishbalyan"
+                target="_blank"
+                rel="noreferrer"
                 >Github</a
               >
               |
-              <a href="https://twitter.com/balyan_manish" target="_blank" rel="noreferrer"
+              <a
+                href="https://twitter.com/balyan_manish"
+                target="_blank"
+                rel="noreferrer"
                 >Twitter</a
               >
               |
-              <a href="https://medium.com/@balyan_manish" target="_blank" rel="noreferrer"
+              <a
+                href="https://medium.com/@balyan_manish"
+                target="_blank"
+                rel="noreferrer"
                 >Medium</a
               >
               |
-              <a href="http://letsbegenuine.com/" target="_blank" rel="noreferrer"
+              <a
+                href="http://letsbegenuine.com/"
+                target="_blank"
+                rel="noreferrer"
                 >Let's Be Genuine</a
               >
             </div>
@@ -113,7 +196,8 @@
                 <div class="col-md-12">
                   <div class="info">
                     <p class="info-text">
-                      I'm a Software Development Engineer working as a Frontend Developer in
+                      I'm a Software Development Engineer working as a Frontend
+                      Developer in
                       <a
                         class="links"
                         href="https://nobroker.in"
@@ -128,15 +212,24 @@
                     </p>
 
                     <p class="info-text">
-                      I love working with Javascript, React.js, Next.js, Angular, Redux,
-                      Html5, CSS3, Bootstrap and would love to apply my skills
-                      to innovative products in performance-critical
-                      environments. Previously i worked at
-                      <a class="links" href="https://groww.in" target="_blank" rel="noreferrer"
-                      >groww</a
-                    > and
-                    
-                      <a class="links" href="https://tixdo.com" target="_blank" rel="noreferrer"
+                      I love working with Javascript, React.js, Next.js,
+                      Angular, Redux, Html5, CSS3, Bootstrap and would love to
+                      apply my skills to innovative products in
+                      performance-critical environments. Previously i worked at
+                      <a
+                        class="links"
+                        href="https://groww.in"
+                        target="_blank"
+                        rel="noreferrer"
+                        >groww</a
+                      >
+                      and
+
+                      <a
+                        class="links"
+                        href="https://tixdo.com"
+                        target="_blank"
+                        rel="noreferrer"
                         >tixdo</a
                       >
                       with product development team as frontend developer and
@@ -158,7 +251,20 @@
 
                     <p class="info-text">
                       Want to chat? Shoot me an email to
-                      <span class="links">balyan05.manish@gmail.com</span> .
+                      <a href="mailto:balyan05.manish@gmail.com" class="links"
+                        >balyan05.manish@gmail.com</a
+                      >
+                      or
+                      <a
+                        class="links"
+                        href="#"
+                        data-toggle="modal"
+                        target="_blank"
+                        rel="noreferrer"
+                        data-target="#myModal"
+                        >Contact me here >></a
+                      >
+                    </p>
                     <p class="info-text">Thanks for visiting my site!</p>
                   </div>
                 </div>
@@ -170,12 +276,9 @@
     </section>
     <!-- Main Container End -->
     <!-- Scripts-->
-    <script
-      defer
-      src="js/jquery.min.js"
-    ></script>
-    <script  defer src="js/bootstrap.min.js"></script>
-    <script  defer src="js/main.js"></script>
+    <script defer src="js/jquery.min.js"></script>
+    <script defer src="js/bootstrap.min.js"></script>
+    <script defer src="js/main.js"></script>
     <!-- Scripts End-->
   </body>
 </html>
