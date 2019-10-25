@@ -24,7 +24,6 @@
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="apple-touch-icon.png" />
     <link rel="icon" href="images/manish.jpg" type="image/jpg" />
-    <link rel="shortcut icon" href="images/manish.jpg" type="image/jpg" />
     <!-- Fonts -->
     <link
       rel="stylesheet"
@@ -286,6 +285,26 @@
     <script defer src="js/jquery.min.js"></script>
     <script defer src="js/bootstrap.min.js"></script>
     <script defer src="js/main.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.2.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyAaU7Osk-0MR9VajF-R6dwh80YhSDlGgsI",
+        authDomain: "pwersonal-website-ccd52.firebaseapp.com",
+        databaseURL: "https://pwersonal-website-ccd52.firebaseio.com",
+        projectId: "pwersonal-website-ccd52",
+        storageBucket: "pwersonal-website-ccd52.appspot.com",
+        messagingSenderId: "882939769504",
+        appId: "1:882939769504:web:5bc35f914b78d587118fc5"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
     <!-- Scripts End-->
   </body>
 </html>
